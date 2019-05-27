@@ -16,18 +16,18 @@ import javax.persistence.Table;
 public class ClaimEntity {
 
     @Id
-    @Column(name = "Id")
+    @Column(name = "ID")
     private String id;
 
-    @Column(name = "ClaimNumber")
+    @Column(name = "CLAIMNUMBER")
     private String claimNumber;
 
-    @Column(name = "LossId")
+    @Column(name = "LOSSID")
     private String lossId;
 
-    @Column(name = "PolicyId")
+    @Column(name = "POLICYID")
     private String policyId;
 
-    @Column(name = "LossType")
+    @Column(name = "LOSSTYPE")
     private String lossType;
 }
